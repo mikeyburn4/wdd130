@@ -1,0 +1,14 @@
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.circle-image {
+    width: 90px; /* Adjust size as needed */
+    height: 90px; /* Adjust size as needed */
+    border-radius: 50px;
+    object-fit: 50px;
+}
+.image-container {
+    text-align: center; /* Center the images */
+}
