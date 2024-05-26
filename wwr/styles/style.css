@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +8,7 @@
 }
 .button-box{
     text-align: center;
+    color: #DF4B4B;
 }
 main section{
     text-align: center;
@@ -16,6 +18,10 @@ main section{
 }
 body{
     background-color: white;
+    font-family: 'Ubuntu', sans-serif, 'Arial', Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #CACEC3;
@@ -23,17 +29,26 @@ header{
 nav a:hover{
     background-color: #f6e5c8;
     color: #00AC95;
+    padding: 35px;
+}
+.card-img{
+    border: black, 10px, solid;
 }
 nav a{
     text-align: center;
     color: #708090;
     text-decoration: none;
+    font-family: 'Ubuntu', sans-serif, 'Arial', Helvetica, sans-serif;
 }
 .home-title{
     color: #DF4B4B;
+    font-family: 'Ubuntu', sans-serif, 'Arial', Helvetica, sans-serif;
+    font-size: 2.5em;
+    margin-top: 10px;
 }
 h4{
     color: black;
+    font-family: 'Ubuntu', sans-serif, 'Arial', Helvetica, sans-serif;
 }
 .book:hover, .join:hover{
     color: #00ac95;
@@ -41,36 +56,56 @@ h4{
 .book, .join{
     color: #00ac95;
     text-decoration: none;
+    font-family: 'Ubuntu', sans-serif, 'Arial', Helvetica, sans-serif;
+    font-size: x-large;
+    padding: 15px, 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .msg h2{
     color: black;
+font-family: 'Ubuntu', sans-serif, 'Arial', Helvetica, sans-serif;
+line-height: 1.5em;
+margin: 0;
+padding: 35px;
 }
 .msg p{
     color: black;
+    font-family: 'Ubuntu', sans-serif, 'Arial', Helvetica, sans-serif;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+
 }
 footer{
     color: #1a2e4f;
     font-size: 1.2em;
     background-color: #1a2e4f;
+    font-family: 'Ubuntu', sans-serif, 'Arial', Helvetica, sans-serif;
+    padding: 25px, 50px;
+    margin-top: 200px;
 }
 footer a{
     color: #FFBA45;
     text-decoration: none;
+    font-family: 'Ubuntu', sans-serif, 'Arial', Helvetica, sans-serif;
+    font-size: medium;
 }
 footer a:hover{
     color: #FFBA45;
 }
 footer p{
-    color: black;
+    color: rgb(160, 166, 175);
 }
 footer p a:hover{
     text-decoration: underline;
 }
 .logo{
-    width: 90px;
+    width: 150px;
+    padding-top: 5px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -80,6 +115,7 @@ footer p a:hover{
 .social img{
     width: 90px;
     height: auto;
+    padding-top: 15px;
 }
 #background{
     background-color: #617676;
