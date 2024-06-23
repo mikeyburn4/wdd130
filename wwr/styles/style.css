@@ -196,7 +196,43 @@ margin: 0;
     line-height: 1.5em;
     padding-bottom: 15px;
 }
+#raft_sub{
+    display: grid;
+    text-align: center;
 
+}
+.home-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.row {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.left, .right {
+    flex: 1;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.left img {
+    max-width: 90%;
+    height: auto;
+    border: 10px solid var(--accent4-color);
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px var(--accent3-color);
+}
+.right img {
+    max-width: 100%;
+    height: auto;
+    border: 10px solid var(--accent4-color);
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px var(--accent3-color);
+}
 
 footer{
     color: #1a2e4f;
@@ -227,6 +263,7 @@ footer .social img{
     height: auto;
     padding-top: 15px;
 }
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
